@@ -31,7 +31,8 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Button(onClick = { showContent = !showContent }) {
+            Text("Moody ⏾")
+            Button(onClick = { showContent = !showContent }) { // show content defining visibility state
                 Text("Click me!")
             }
             AnimatedVisibility(showContent) {
@@ -41,6 +42,7 @@ fun App() {
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     Image(painterResource(Res.drawable.compose_multiplatform), null)
+                    Image(painterResource(Res.drawable.compose_multiplatform), contentDescription = null)
                     Text("Compose: $greeting")
                 }
             }

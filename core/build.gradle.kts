@@ -33,7 +33,8 @@ kotlin {
     }
     sourceSets {
         commonMain.dependencies {
-            // put your Multiplatform dependencies here
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+            implementation("org.jetbrains.kotlinx:dataframe:1.0.0-rc02")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

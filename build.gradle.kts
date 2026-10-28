@@ -8,4 +8,5 @@ plugins {
     alias(libs.plugins.kotlinJvm) apply false
     alias(libs.plugins.kotlinMultiplatform) apply false
     alias(libs.plugins.ktor) apply false
+    kotlin("plugin.dataframe") version "2.4.21"
 }
