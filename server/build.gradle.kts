@@ -3,10 +3,10 @@ plugins {
     alias(libs.plugins.ktor)
 }
 
-group = "org.moodtracker.moody"
+group = "org.moody.project"
 version = "1.0.0"
 application {
-    mainClass = "org.moodtracker.moody.ApplicationKt"
+    mainClass = "org.moody.project.ApplicationKt"
 }
 
 dependencies {

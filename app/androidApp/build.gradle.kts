@@ -20,11 +20,11 @@ dependencies {
 }
 
 android {
-    namespace = "org.moodtracker.moody"
+    namespace = "org.moody.project"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "org.moodtracker.moody"
+        applicationId = "org.moody.project"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
